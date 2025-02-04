@@ -78,6 +78,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
 
     //Room
-
+    implementation (libs.androidx.room.ktx)
+    kapt (libs.androidx.room.compiler)
 
 }
